@@ -8,5 +8,5 @@ function insert_Row() {
 	td2.innerText = "New Cell2"
 	tr.appendChild(td1)
 	tr.appendChild(td2)
-	table.appendChild(tr)
+	table.prepend(tr)
 }
